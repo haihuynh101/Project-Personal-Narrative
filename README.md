@@ -31,14 +31,17 @@ Record a short video of your story to display here on your README. You can do th
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my project]![alt text](image-1.png)      ][(youtube-URL-here)](https://www.youtube.com/shorts/3B_nOVRzWmg)
+![Thumbnail for my project]!   ![alt text](image-2.png)   ][(youtube-URL-here)](https://www.youtube.com/shorts/3B_nOVRzWmg)
 
 ## Story Description
 
 Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
 
 
-My story plays images of the main food courses in vietnam and then the main desserts. The data in my project that is represneted into 2d arrays 
+My story plays images of the main food courses in vietnam and then the main desserts. The data in my project that is represented by 2d arrays is the names of all the foods and desserts and the second one is what they are most generally rated. These relate to my animation because in my myStory method, the code calls on the 2d arrays and prints it out.
 ## Image Filter Analysis
 
 Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+
+
+The colorize filter takes a image and changes the color based on how bright or dark each of the pixel is and change it to red, green or blue. It uses loops and if statements to decide what color to set each of the pixel to. The second image filter in my animation is the make red filter and modifies the pixel by making each loop go through a pixel and increase its pixel value to make it more red. 
